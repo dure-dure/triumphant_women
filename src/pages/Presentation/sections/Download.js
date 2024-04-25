@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -8,7 +9,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -34,7 +35,7 @@ function Download() {
     <MKBox component="section" py={6}>
       <MKBox
         variant="gradient"
-        bgColor= "dark"
+        bgColor="dark"
         position="relative"
         borderRadius="xl"
         sx={{ overflow: "hidden" }}
@@ -53,18 +54,18 @@ function Download() {
         <Container sx={{ position: "relative", zIndex: 2, py: 12 }}>
           <Grid container item xs={12} md={7} justifyContent="center" mx="auto" textAlign="center">
             <MKTypography variant="h3" color="primary" mb={1}>
-            Vision
+              Vision
             </MKTypography>
             <MKTypography variant="body1" color="white" mb={6}>
-            Help women to Experience the love of God Have intimacy with God 
-            Know their divine destiny.
+              Help women to Experience the love of God Have intimacy with God Know their divine
+              destiny.
             </MKTypography>
             <MKTypography variant="h3" color="primary" mb={1}>
-            Mission
+              Mission
             </MKTypography>
             <MKTypography variant="body1" color="white" mb={6}>
-            Travel to the nation to bring good news.
-            Help children  spiritually, emotionally and physically.
+              Travel to the nation to bring good news. Help children spiritually,
+              emotionally and physically.
             </MKTypography>
             <MKButton
               variant="gradient"
@@ -75,13 +76,11 @@ function Download() {
               sx={{ mb: 2 }}
             >
               Prise de rendez-vous
-              
             </MKButton>
           </Grid>
-          
         </Container>
       </MKBox>
-      
+
       <Testimonials />
     </MKBox>
   );

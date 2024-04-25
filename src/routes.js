@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /**
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -8,7 +9,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -107,7 +108,6 @@ const routes = [
   //     },
   //   ],
   // },
-  
 ];
 
 export default routes;

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -8,7 +9,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -44,7 +45,6 @@ function Information() {
                 // icon="touch_app"
                 title={
                   <>
-                    
                     <br />
                     <br />
                     <br />
@@ -52,7 +52,6 @@ function Information() {
                     <br />
                     <br />
                     <br />
-                    
                   </>
                 }
                 description=""
@@ -71,26 +70,21 @@ function Information() {
             </RotatingCard>
           </Grid>
           <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
-          <DefaultInfoCard
-                  // icon="content_copy"
-                  
-                  title={
-                    <>
-                  
-                    Prophetess Deborah TSOGBE 
-                    <br />
-                    <br />
-                    
-                    </> 
-                    }
-                  description="is married and have three kids. 
-                  She was called into prophetic ministry in 2016 she started with women intercession group called Triumphant Women.
-                  2019 she did her first Women retreat.2022 she started women conference, and every year she host women retreat and conference which is a blessing to many.
-                  2023 she did her first trip to Canada Montreal when she hosted healing and Deliverance Crusade.
-                  The ministry is base in Minnesota."
-                  
-                />
-                <br />
+            <DefaultInfoCard
+              // icon="content_copy"
+              title={
+                <>
+                  `Prophetess Deborah TSOGBE`
+                  <br /> <br />
+                </>
+              }
+              description="is married and have three kids. 
+              She was called into prophetic ministry in 2016 she started with women intercession group called Triumphant Women.
+              2019 she did her first Women retreat.2022 she started women conference, and every year she host women retreat and conference which is a blessing to many.
+              2023 she did her first trip to Canada Montreal when she hosted healing and Deliverance Crusade.
+              The ministry is base in Minnesota."
+            />
+            <br />
           </Grid>
         </Grid>
       </Container>

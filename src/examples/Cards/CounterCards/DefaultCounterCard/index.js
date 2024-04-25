@@ -52,16 +52,7 @@ DefaultCounterCard.defaultProps = {
 
 // Typechecking props for the DefaultCounterCard
 DefaultCounterCard.propTypes = {
-  color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "light",
-    "dark",
-  ]),
+  color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "light", "dark"]),
   count: PropTypes.number.isRequired,
   title: PropTypes.string,
   description: PropTypes.string,

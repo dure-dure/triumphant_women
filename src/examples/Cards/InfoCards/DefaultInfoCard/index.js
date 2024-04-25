@@ -27,25 +27,14 @@ function DefaultInfoCard({ color, icon, title, description, direction, small }) 
   return (
     <MKBox lineHeight={1} p={direction === "center" ? 2 : 0} textAlign={direction}>
       {typeof icon === "string" ? (
-        <MKTypography
-          display="block"
-          variant={direction === "center" ? "h2" : "h3"}
-          color={color}
-          textGradient
-        >
+        <MKTypography display="block" variant={direction === "center" ? "h2" : "h3"} color={color} textGradient>
           {" "}
           <Icon>{icon}</Icon>{" "}
         </MKTypography>
       ) : (
         icon
       )}
-      <MKTypography
-        display="block"
-        variant="5"
-        fontWeight="bold"
-        mt={direction === "center" ? 1 : 2}
-        mb={1.5}
-      >
+      <MKTypography display="block" variant="5" fontWeight="bold" mt={direction === "center" ? 1 : 2} mb={1.5}>
         {title}
       </MKTypography>
       <MKTypography
@@ -70,16 +59,7 @@ DefaultInfoCard.defaultProps = {
 
 // Typechecking props for the DefaultInfoCard
 DefaultInfoCard.propTypes = {
-  color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "light",
-    "dark",
-  ]),
+  color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "light", "dark"]),
   icon: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

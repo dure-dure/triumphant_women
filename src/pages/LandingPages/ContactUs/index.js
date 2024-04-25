@@ -59,16 +59,7 @@ function ContactUs() {
             sx={{ backgroundImage: `url(${bgImage})` }}
           />
         </Grid>
-        <Grid
-          item
-          xs={12}
-          sm={10}
-          md={7}
-          lg={6}
-          xl={4}
-          ml={{ xs: "auto", lg: 6 }}
-          mr={{ xs: "auto", lg: 6 }}
-        >
+        <Grid item xs={12} sm={10} md={7} lg={6} xl={4} ml={{ xs: "auto", lg: 6 }} mr={{ xs: "auto", lg: 6 }}>
           <MKBox
             bgColor="white"
             borderRadius="xl"
@@ -80,33 +71,20 @@ function ContactUs() {
             mb={{ xs: 20, sm: 18, md: 20 }}
             mx={3}
           >
-            <MKBox
-              variant="gradient"
-              bgColor="info"
-              coloredShadow="info"
-              borderRadius="lg"
-              p={2}
-              mx={2}
-              mt={-3}
-            >
+            <MKBox variant="gradient" bgColor="info" coloredShadow="info" borderRadius="lg" p={2} mx={2} mt={-3}>
               <MKTypography variant="h3" color="white">
                 Contact us
               </MKTypography>
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                For further questions, including partnership opportunities, please email hello@creative-tim.com or
+                contact using our contact form.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={6}>
-                    <MKInput
-                      variant="standard"
-                      label="Full Name"
-                      InputLabelProps={{ shrink: true }}
-                      fullWidth
-                    />
+                    <MKInput variant="standard" label="Full Name" InputLabelProps={{ shrink: true }} fullWidth />
                   </Grid>
                   <Grid item xs={12} md={6}>
                     <MKInput

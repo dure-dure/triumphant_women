@@ -30,10 +30,7 @@ function NavTabs() {
   return (
     <BaseLayout
       title="Nav Tabs"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/navigation/nav-tabs" },
-        { label: "Nav Tabs" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/navigation/nav-tabs" }, { label: "Nav Tabs" }]}
     >
       <View title="Tabs simple" code={tabsSimpleCode}>
         <MKBox bgColor="white" py={6}>

@@ -27,10 +27,7 @@ function Typography() {
   return (
     <BaseLayout
       title="Typography"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/Typography" },
-        { label: "Typography" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/Typography" }, { label: "Typography" }]}
     >
       <View title="Typography - Font Family Roboto" code={typographyRobotoCode}>
         <TypographyRoboto />

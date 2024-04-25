@@ -39,10 +39,9 @@ function TransparentBlogCard({ image, title, description, action }) {
       transition: "transform 0.2s cubic-bezier(0.34,1.61,0.7,1.3)",
     },
 
-    "&:hover .material-icons, &:focus .material-icons, &:hover .material-icons-round, &:focus .material-icons-round":
-      {
-        transform: `translateX(6px)`,
-      },
+    "&:hover .material-icons, &:focus .material-icons, &:hover .material-icons-round, &:focus .material-icons-round": {
+      transform: `translateX(6px)`,
+    },
   };
 
   const imageTemplate = (

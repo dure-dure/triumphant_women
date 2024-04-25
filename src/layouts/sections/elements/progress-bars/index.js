@@ -27,10 +27,7 @@ function ProgressBars() {
   return (
     <BaseLayout
       title="Progress Bars"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/progress-bars" },
-        { label: "Progress Bars" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/progress-bars" }, { label: "Progress Bars" }]}
     >
       <View title="Progress bar simple" code={progressSimpleCode}>
         <ProgressSimple />

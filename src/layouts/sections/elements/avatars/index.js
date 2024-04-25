@@ -29,10 +29,7 @@ function Avatars() {
   return (
     <BaseLayout
       title="Avatars"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/avatars" },
-        { label: "Avatars" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/avatars" }, { label: "Avatars" }]}
     >
       <View title="Avatar Group" code={avatarGroupCode}>
         <AvatarGroup />

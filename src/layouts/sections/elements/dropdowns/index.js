@@ -27,10 +27,7 @@ function Dropdowns() {
   return (
     <BaseLayout
       title="Dropdowns"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/dropdowns" },
-        { label: "Dropdowns" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/dropdowns" }, { label: "Dropdowns" }]}
     >
       <View title="Dropdown and Dropup" code={dropdownAndDropupCode}>
         <DropdownAndDropup />

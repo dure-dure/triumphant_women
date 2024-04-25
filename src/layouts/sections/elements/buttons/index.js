@@ -37,10 +37,7 @@ function Buttons() {
   return (
     <BaseLayout
       title="Buttons"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/buttons" },
-        { label: "Buttons" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/buttons" }, { label: "Buttons" }]}
     >
       <View title="Buttons gradient" code={buttonsGradientCode}>
         <ButtonsGradient />

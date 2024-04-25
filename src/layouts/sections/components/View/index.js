@@ -54,20 +54,11 @@ function View({ children, code, title, height, ...rest }) {
   }, [success]);
 
   return (
-    <MKBox
-      width="100%"
-      position="relative"
-      borderRadius="xl"
-      shadow="lg"
-      mb={12}
-      sx={{ overflow: "hidden" }}
-      {...rest}
-    >
+    <MKBox width="100%" position="relative" borderRadius="xl" shadow="lg" mb={12} sx={{ overflow: "hidden" }} {...rest}>
       <MKBox
         px={3}
         sx={{
-          borderBottom: ({ borders: { borderWidth, borderColor } }) =>
-            `${borderWidth[1]} solid ${borderColor}`,
+          borderBottom: ({ borders: { borderWidth, borderColor } }) => `${borderWidth[1]} solid ${borderColor}`,
         }}
       >
         <Grid container spacing={2} justifyContent="space-between" py={1}>
@@ -123,13 +114,7 @@ function View({ children, code, title, height, ...rest }) {
         </MKBox>
       </MKBox>
       <MKBox display={activeTab === 1 ? "block" : "none"} p={3}>
-        <MKBox
-          bgColor="grey-100"
-          position="relative"
-          width="100%"
-          borderRadius="xl"
-          sx={{ overflow: "hidden" }}
-        >
+        <MKBox bgColor="grey-100" position="relative" width="100%" borderRadius="xl" sx={{ overflow: "hidden" }}>
           <CopyToClipboard text={code}>
             <MKButton
               variant="gradient"

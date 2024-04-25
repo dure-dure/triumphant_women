@@ -36,10 +36,7 @@ function BuiltByDevelopers() {
       py={6}
       sx={{
         backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-          `${linearGradient(
-            rgba(gradients.dark.main, 0.5),
-            rgba(gradients.dark.state, 0.5)
-          )}, url(${bgImage})`,
+          `${linearGradient(rgba(gradients.dark.main, 0.5), rgba(gradients.dark.state, 0.5))}, url(${bgImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

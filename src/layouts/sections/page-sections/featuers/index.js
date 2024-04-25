@@ -27,10 +27,7 @@ function Features() {
   return (
     <BaseLayout
       title="Features"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/page-sections/features" },
-        { label: "Features" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/page-sections/features" }, { label: "Features" }]}
     >
       <View title="Features 1" code={featuresOneCode}>
         <FeaturesOne />

@@ -122,12 +122,7 @@ function DefaultNavbarMobile({ routes, open }) {
                       },
                     })}
                   >
-                    <MKTypography
-                      display="block"
-                      variant="button"
-                      fontWeight="bold"
-                      textTransform="capitalize"
-                    >
+                    <MKTypography display="block" variant="button" fontWeight="bold" textTransform="capitalize">
                       {item.name}
                     </MKTypography>
                     <MKTypography

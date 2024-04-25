@@ -34,26 +34,18 @@ function BreadcrumbsEl() {
   return (
     <BaseLayout
       title="Breadcrumbs"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/breadcrumbs" },
-        { label: "Breadcrumbs" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/breadcrumbs" }, { label: "Breadcrumbs" }]}
     >
       <View title="Breadcrumbs" code={breadcrumbsCode}>
         <MKBox component="section" bgColor="white" py={8}>
           <Container>
             <Grid container spacing={2} item xs={12} lg={10} mx="auto">
               <Grid item xs={12}>
-                <Breadcrumbs
-                  routes={[{ label: "Home", route: "/sections/elements/breadcrumbs" }]}
-                />
+                <Breadcrumbs routes={[{ label: "Home", route: "/sections/elements/breadcrumbs" }]} />
               </Grid>
               <Grid item xs={12}>
                 <Breadcrumbs
-                  routes={[
-                    { label: "Home", route: "/sections/elements/breadcrumbs" },
-                    { label: "Library" },
-                  ]}
+                  routes={[{ label: "Home", route: "/sections/elements/breadcrumbs" }, { label: "Library" }]}
                 />
               </Grid>
               <Grid item xs={12}>

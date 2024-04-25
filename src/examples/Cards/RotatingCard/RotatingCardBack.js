@@ -92,16 +92,7 @@ RotatingCard.defaultProps = {
 
 // Typechecking props for the RotatingCard
 RotatingCard.propTypes = {
-  color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "dark",
-    "light",
-  ]),
+  color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "dark", "light"]),
   image: PropTypes.string.isRequired,
   title: PropTypes.node.isRequired,
   description: PropTypes.node.isRequired,

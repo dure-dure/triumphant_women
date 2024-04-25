@@ -39,10 +39,7 @@ function Inputs() {
   return (
     <BaseLayout
       title="Inputs"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/input-areas/inputs" },
-        { label: "Inputs" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/input-areas/inputs" }, { label: "Inputs" }]}
     >
       <View title="Input dynamic" code={inputDynamicCode}>
         <InputDynamic />

@@ -70,9 +70,9 @@ function Profile() {
                 </Grid>
               </Grid>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
-                paths, choose the one more painful in the short term (pain avoidance is creating an
-                illusion of equality). Choose the path that leaves you more equanimous. <br />
+                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult paths, choose the one
+                more painful in the short term (pain avoidance is creating an illusion of equality). Choose the path
+                that leaves you more equanimous. <br />
                 <MKTypography
                   component="a"
                   href="#"

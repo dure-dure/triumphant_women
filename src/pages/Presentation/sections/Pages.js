@@ -52,13 +52,7 @@ function Pages() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge
-            variant="contained"
-            color="info"
-            badgeContent="boost creativity"
-            container
-            sx={{ mb: 2 }}
-          />
+          <MKBadge variant="contained" color="info" badgeContent="boost creativity" container sx={{ mb: 2 }} />
           <MKTypography variant="h2" fontWeight="bold">
             With our coded pages
           </MKTypography>
@@ -81,8 +75,8 @@ function Pages() {
                 Presentation Pages for Company, Landing Pages, Blogs and Support
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                These is just a small selection of the multiple possibitilies you have. Focus on the
-                business, not on the design.
+                These is just a small selection of the multiple possibitilies you have. Focus on the business, not on
+                the design.
               </MKTypography>
             </MKBox>
           </Grid>

@@ -30,14 +30,7 @@ function HorizontalTeamCard({ image, name, position, description }) {
       <Grid container>
         <Grid item xs={12} md={6} lg={4} sx={{ mt: -6 }}>
           <MKBox width="100%" pt={2} pb={1} px={2}>
-            <MKBox
-              component="img"
-              src={image}
-              alt={name}
-              width="100%"
-              borderRadius="md"
-              shadow="lg"
-            />
+            <MKBox component="img" src={image} alt={name} width="100%" borderRadius="md" shadow="lg" />
           </MKBox>
         </Grid>
         <Grid item xs={12} md={6} lg={8} sx={{ my: "auto" }}>
@@ -61,16 +54,7 @@ HorizontalTeamCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.shape({
-    color: PropTypes.oneOf([
-      "primary",
-      "secondary",
-      "info",
-      "success",
-      "warning",
-      "error",
-      "dark",
-      "light",
-    ]),
+    color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "dark", "light"]),
     label: PropTypes.string.isRequired,
   }).isRequired,
   description: PropTypes.string.isRequired,

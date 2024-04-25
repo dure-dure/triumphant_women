@@ -33,13 +33,7 @@ import { Color } from "chroma-js";
 function Download() {
   return (
     <MKBox component="section" py={6}>
-      <MKBox
-        variant="gradient"
-        bgColor="dark"
-        position="relative"
-        borderRadius="xl"
-        sx={{ overflow: "hidden" }}
-      >
+      <MKBox variant="gradient" bgColor="dark" position="relative" borderRadius="xl" sx={{ overflow: "hidden" }}>
         <MKBox
           component="img"
           src={bgImage}
@@ -57,15 +51,13 @@ function Download() {
               Vision
             </MKTypography>
             <MKTypography variant="body1" color="white" mb={6}>
-              Help women to Experience the love of God Have intimacy with God Know their divine
-              destiny.
+              Help women to Experience the love of God Have intimacy with God Know their divine destiny.
             </MKTypography>
             <MKTypography variant="h3" color="primary" mb={1}>
               Mission
             </MKTypography>
             <MKTypography variant="body1" color="white" mb={6}>
-              Travel to the nation to bring good news. Help children spiritually, emotionally and
-              physically.
+              Travel to the nation to bring good news. Help children spiritually, emotionally and physically.
             </MKTypography>
             <MKButton
               variant="gradient"

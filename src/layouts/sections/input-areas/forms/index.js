@@ -27,10 +27,7 @@ function Forms() {
   return (
     <BaseLayout
       title="Forms"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/input-areas/forms" },
-        { label: "Forms" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/input-areas/forms" }, { label: "Forms" }]}
     >
       <View title="Form Simple" code={formSimpleCode}>
         <FormSimple />

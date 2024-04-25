@@ -264,10 +264,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
               item.name
             )}
             {item.collapse && (
-              <Icon
-                fontSize="small"
-                sx={{ fontWeight: "normal", verticalAlign: "middle", mr: -0.5 }}
-              >
+              <Icon fontSize="small" sx={{ fontWeight: "normal", verticalAlign: "middle", mr: -0.5 }}>
                 keyboard_arrow_right
               </Icon>
             )}
@@ -396,10 +393,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
                       item.name
                     )}
                     {item.collapse && (
-                      <Icon
-                        fontSize="small"
-                        sx={{ fontWeight: "normal", verticalAlign: "middle", mr: -0.5 }}
-                      >
+                      <Icon fontSize="small" sx={{ fontWeight: "normal", verticalAlign: "middle", mr: -0.5 }}>
                         keyboard_arrow_right
                       </Icon>
                     )}
@@ -480,12 +474,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
               {brand}
             </MKTypography>
           </MKBox>
-          <MKBox
-            color="inherit"
-            display={{ xs: "none", lg: "flex" }}
-            ml="auto"
-            mr={center ? "auto" : 0}
-          >
+          <MKBox color="inherit" display={{ xs: "none", lg: "flex" }} ml="auto" mr={center ? "auto" : 0}>
             {renderNavbarItems}
           </MKBox>
           <MKBox ml={{ xs: "auto", lg: 0 }}>
@@ -494,11 +483,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
                 <MKButton
                   component={Link}
                   to={action.route}
-                  variant={
-                    action.color === "white" || action.color === "default"
-                      ? "contained"
-                      : "gradient"
-                  }
+                  variant={action.color === "white" || action.color === "default" ? "contained" : "gradient"}
                   color={action.color ? action.color : "info"}
                   size="small"
                 >
@@ -510,11 +495,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
                   href={action.route}
                   target="_blank"
                   rel="noreferrer"
-                  variant={
-                    action.color === "white" || action.color === "default"
-                      ? "contained"
-                      : "gradient"
-                  }
+                  variant={action.color === "white" || action.color === "default" ? "contained" : "gradient"}
                   color={action.color ? action.color : "info"}
                   size="small"
                 >

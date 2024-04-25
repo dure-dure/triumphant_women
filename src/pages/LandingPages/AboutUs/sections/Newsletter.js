@@ -35,8 +35,8 @@ function Newsletter() {
           <Grid item md={6} sx={{ ml: { xs: 0, lg: 3 }, mb: { xs: 12, md: 0 } }}>
             <MKTypography variant="h4">Be the first to see the news</MKTypography>
             <MKTypography variant="body2" color="text" mb={3}>
-              Your company may not be in the software business, but eventually, a software company
-              will be in your business.
+              Your company may not be in the software business, but eventually, a software company will be in your
+              business.
             </MKTypography>
             <Grid container spacing={1}>
               <Grid item xs={8}>

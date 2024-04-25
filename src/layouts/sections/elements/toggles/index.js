@@ -29,10 +29,7 @@ function Toggles() {
   return (
     <BaseLayout
       title="Toggles"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/toggles" },
-        { label: "Toggles" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/toggles" }, { label: "Toggles" }]}
     >
       <View title="Toggle" code={toggleCode}>
         <Toggle />

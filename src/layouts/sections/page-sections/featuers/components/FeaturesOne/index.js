@@ -33,9 +33,8 @@ function FeaturesOne() {
               Read More About Us
             </MKTypography>
             <MKTypography variant="body2" color="text" mb={2}>
-              Pain is what we go through as we become older. We get insulted by others, lose trust
-              for those others. We get back stabbed by friends. It becomes harder for us to give
-              others a hand.
+              Pain is what we go through as we become older. We get insulted by others, lose trust for those others. We
+              get back stabbed by friends. It becomes harder for us to give others a hand.
             </MKTypography>
             <MKTypography
               component="a"

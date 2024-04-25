@@ -32,15 +32,7 @@ function CenteredBlogCard({ image, title, description, action }) {
   return (
     <Card>
       <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
-        <MKBox
-          component="img"
-          src={image}
-          alt={title}
-          borderRadius="lg"
-          width="100%"
-          position="relative"
-          zIndex={1}
-        />
+        <MKBox component="img" src={image} alt={title} borderRadius="lg" width="100%" position="relative" zIndex={1} />
         <MKBox
           borderRadius="lg"
           shadow="md"
@@ -102,16 +94,7 @@ CenteredBlogCard.propTypes = {
   action: PropTypes.shape({
     type: PropTypes.oneOf(["external", "internal"]).isRequired,
     route: PropTypes.string.isRequired,
-    color: PropTypes.oneOf([
-      "primary",
-      "secondary",
-      "info",
-      "success",
-      "warning",
-      "error",
-      "dark",
-      "light",
-    ]),
+    color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "dark", "light"]),
     label: PropTypes.string.isRequired,
   }).isRequired,
 };

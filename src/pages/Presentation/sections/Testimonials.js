@@ -74,8 +74,7 @@ function Information() {
                   * Tes dons et tes talents
                   <br />
                   * Tes blessures interieures et traumatizes
-                  <br />* Restauration * Preparation au marriage (Physique,emotionnelle,ou
-                  spirituelle)
+                  <br />* Restauration * Preparation au marriage (Physique,emotionnelle,ou spirituelle)
                 </>
               }
               rating={5}

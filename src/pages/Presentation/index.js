@@ -87,15 +87,8 @@ function Presentation() {
             >
               TRIUMPHANT WOMEN{" "}
             </MKTypography>
-            <MKTypography
-              variant="body1"
-              color="white"
-              textAlign="center"
-              px={{ xs: 6, lg: 12 }}
-              mt={1}
-            >
-              Help women to experience the love of God , Have intimacy with God and Know their
-              divine destiny.
+            <MKTypography variant="body1" color="white" textAlign="center" px={{ xs: 6, lg: 12 }} mt={1}>
+              Help women to experience the love of God , Have intimacy with God and Know their divine destiny.
             </MKTypography>
           </Grid>
         </Container>

@@ -30,10 +30,7 @@ function Pagination() {
   return (
     <BaseLayout
       title="Pagination"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/navigation/pagination" },
-        { label: "Pagination" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/navigation/pagination" }, { label: "Pagination" }]}
     >
       <View title="Pagination simple" code={paginationSimpleCode}>
         <MKBox py={3}>

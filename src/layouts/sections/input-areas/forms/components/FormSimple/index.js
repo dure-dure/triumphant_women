@@ -67,13 +67,7 @@ function FormSimple() {
                   >
                     &nbsp;&nbsp;I agree the&nbsp;
                   </MKTypography>
-                  <MKTypography
-                    component="a"
-                    href="#"
-                    variant="button"
-                    fontWeight="regular"
-                    color="dark"
-                  >
+                  <MKTypography component="a" href="#" variant="button" fontWeight="regular" color="dark">
                     Terms and Conditions
                   </MKTypography>
                 </Grid>

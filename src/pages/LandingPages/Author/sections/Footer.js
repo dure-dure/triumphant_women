@@ -28,14 +28,7 @@ function Footer() {
     <MKBox component="footer" py={6}>
       <Container>
         <Grid container>
-          <Grid
-            item
-            xs={12}
-            lg={4}
-            textAlign={{ xs: "center", lg: "left" }}
-            mr="auto"
-            mb={{ xs: 3, lg: 0 }}
-          >
+          <Grid item xs={12} lg={4} textAlign={{ xs: "center", lg: "left" }} mr="auto" mb={{ xs: 3, lg: 0 }}>
             <MKTypography variant="h6" textTransform="uppercase" mb={{ xs: 2, lg: 3 }}>
               Material Design
             </MKTypography>
@@ -103,14 +96,13 @@ function Footer() {
               </MKBox>
             </Stack>
             <MKTypography variant="button" opacity={0.8}>
-              Copyright © <script>document.write(new Date().getFullYear())</script>2021 Material
-              Design by Creative Tim.
+              Copyright © <script>document.write(new Date().getFullYear())</script>2021 Material Design by Creative
+              Tim.
             </MKTypography>
           </Grid>
           <Grid item xs={12} lg={6} ml="auto" textAlign={{ xs: "center", lg: "right" }}>
             <MKTypography variant="body1" fontWeight="bold" mb={6} sx={{ fontSize: "1.125rem" }}>
-              The reward for getting on the stage is fame. The price of fame is you can&apos;t get
-              off the stage.
+              The reward for getting on the stage is fame. The price of fame is you can&apos;t get off the stage.
             </MKTypography>
             <MKTypography
               component={Link}

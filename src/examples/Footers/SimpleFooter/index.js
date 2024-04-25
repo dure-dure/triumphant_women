@@ -34,13 +34,7 @@ function SimpleFooter({ company, links, light }) {
 
   const renderLinks = () =>
     links.map((link, key) => (
-      <MKBox
-        key={link.name}
-        component="li"
-        pl={key === 0 ? 0 : 2}
-        pr={key === links.length - 1 ? 0 : 2}
-        lineHeight={1}
-      >
+      <MKBox key={link.name} component="li" pl={key === 0 ? 0 : 2} pr={key === links.length - 1 ? 0 : 2} lineHeight={1}>
         <Link href={link.href} target="_blank">
           <MKTypography variant="button" fontWeight="regular" color={light ? "white" : "text"}>
             {link.name}

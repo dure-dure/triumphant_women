@@ -31,14 +31,7 @@ function Contact() {
     <MKBox component="section" py={{ xs: 0, lg: 6 }}>
       <Container>
         <Grid container item>
-          <MKBox
-            width="100%"
-            bgColor="white"
-            borderRadius="xl"
-            shadow="xl"
-            mb={6}
-            sx={{ overflow: "hidden" }}
-          >
+          <MKBox width="100%" bgColor="white" borderRadius="xl" shadow="xl" mb={6} sx={{ overflow: "hidden" }}>
             <Grid container spacing={2}>
               <Grid
                 item
@@ -47,10 +40,7 @@ function Contact() {
                 position="relative"
                 px={0}
                 sx={{
-                  backgroundImage: ({
-                    palette: { gradients },
-                    functions: { rgba, linearGradient },
-                  }) =>
+                  backgroundImage: ({ palette: { gradients }, functions: { rgba, linearGradient } }) =>
                     `${linearGradient(
                       rgba(gradients.dark.main, 0.8),
                       rgba(gradients.dark.state, 0.8)
@@ -58,13 +48,7 @@ function Contact() {
                   backgroundSize: "cover",
                 }}
               >
-                <MKBox
-                  display="flex"
-                  justifyContent="center"
-                  alignItems="center"
-                  width="100%"
-                  height="100%"
-                >
+                <MKBox display="flex" justifyContent="center" alignItems="center" width="100%" height="100%">
                   <MKBox py={6} pr={6} pl={{ xs: 6, sm: 12 }} my="auto">
                     <MKTypography variant="h3" color="white" mb={1}>
                       Contact Information
@@ -176,15 +160,7 @@ function Contact() {
                         />
                       </Grid>
                     </Grid>
-                    <Grid
-                      container
-                      item
-                      xs={12}
-                      md={6}
-                      justifyContent="flex-end"
-                      textAlign="right"
-                      ml="auto"
-                    >
+                    <Grid container item xs={12} md={6} justifyContent="flex-end" textAlign="right" ml="auto">
                       <MKButton variant="gradient" color="info">
                         Send Message
                       </MKButton>

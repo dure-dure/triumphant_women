@@ -106,16 +106,7 @@ function DefaultReviewCard({ color, image, name, date, review, rating }) {
       shadow={color === "transparent" ? "none" : "md"}
       p={3}
     >
-      {image && (
-        <MKAvatar
-          src={image}
-          alt={name}
-          variant="rounded"
-          size="lg"
-          shadow="md"
-          sx={{ mt: -5, mb: 1 }}
-        />
-      )}
+      {image && <MKAvatar src={image} alt={name} variant="rounded" size="lg" shadow="md" sx={{ mt: -5, mb: 1 }} />}
       <MKBox lineHeight={1}>
         <MKTypography
           display="block"
@@ -137,11 +128,7 @@ function DefaultReviewCard({ color, image, name, date, review, rating }) {
           {date}
         </MKTypography>
       </MKBox>
-      <MKTypography
-        variant="body2"
-        color={color === "transparent" || color === "light" ? "text" : "white"}
-        my={4}
-      >
+      <MKTypography variant="body2" color={color === "transparent" || color === "light" ? "text" : "white"} my={4}>
         {review}
       </MKTypography>
       <MKTypography

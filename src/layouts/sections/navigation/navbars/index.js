@@ -30,10 +30,7 @@ function Navbars() {
   return (
     <BaseLayout
       title="Navbars"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/navigation/navbars" },
-        { label: "Navbars" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/navigation/navbars" }, { label: "Navbars" }]}
     >
       <View title="Navbar dark" code={navbarDarkCode}>
         <MKBox py={6}>

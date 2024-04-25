@@ -69,16 +69,7 @@ RotatingCardFront.defaultProps = {
 
 // Typechecking props for the RotatingCardFront
 RotatingCardFront.propTypes = {
-  color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "dark",
-    "light",
-  ]),
+  color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "dark", "light"]),
   image: PropTypes.string.isRequired,
   icon: PropTypes.node,
   title: PropTypes.node.isRequired,

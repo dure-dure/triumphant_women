@@ -44,11 +44,7 @@ function HeaderOne() {
             >
               Material Design
             </MKTypography>
-            <MKButton
-              variant="outlined"
-              color="white"
-              sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
-            >
+            <MKButton variant="outlined" color="white" sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}>
               <MKBox component="i" color="white" className="fas fa-bars" />
             </MKButton>
             <MKBox
@@ -99,43 +95,19 @@ function HeaderOne() {
                 </MKTypography>
               </MKBox>
             </MKBox>
-            <MKBox
-              component="ul"
-              display={{ xs: "none", lg: "flex" }}
-              p={0}
-              m={0}
-              sx={{ listStyle: "none" }}
-            >
+            <MKBox component="ul" display={{ xs: "none", lg: "flex" }} p={0} m={0} sx={{ listStyle: "none" }}>
               <MKBox component="li">
-                <MKTypography
-                  component={Link}
-                  href="#"
-                  variant="button"
-                  p={1}
-                  onClick={(e) => e.preventDefault()}
-                >
+                <MKTypography component={Link} href="#" variant="button" p={1} onClick={(e) => e.preventDefault()}>
                   <MKBox component="i" color="white" className="fab fa-twitter" />
                 </MKTypography>
               </MKBox>
               <MKBox component="li">
-                <MKTypography
-                  component={Link}
-                  href="#"
-                  variant="button"
-                  p={1}
-                  onClick={(e) => e.preventDefault()}
-                >
+                <MKTypography component={Link} href="#" variant="button" p={1} onClick={(e) => e.preventDefault()}>
                   <MKBox component="i" color="white" className="fab fa-facebook" />
                 </MKTypography>
               </MKBox>
               <MKBox component="li">
-                <MKTypography
-                  component={Link}
-                  href="#"
-                  variant="button"
-                  p={1}
-                  onClick={(e) => e.preventDefault()}
-                >
+                <MKTypography component={Link} href="#" variant="button" p={1} onClick={(e) => e.preventDefault()}>
                   <MKBox component="i" color="white" className="fab fa-instagram" />
                 </MKTypography>
               </MKBox>
@@ -149,10 +121,7 @@ function HeaderOne() {
         minHeight="100%"
         sx={{
           backgroundImage: ({ palette: { gradients }, functions: { linearGradient, rgba } }) =>
-            `${linearGradient(
-              rgba(gradients.dark.main, 0.5),
-              rgba(gradients.dark.state, 0.5)
-            )}, url(${bgImage})`,
+            `${linearGradient(rgba(gradients.dark.main, 0.5), rgba(gradients.dark.state, 0.5))}, url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -172,8 +141,7 @@ function HeaderOne() {
               Material Kit
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
-              The time is now for it be okay to be great. People in this world shun people for being
-              nice.
+              The time is now for it be okay to be great. People in this world shun people for being nice.
             </MKTypography>
             <Stack direction="row" spacing={1} mt={3}>
               <MKButton color="white">Get Started</MKButton>

@@ -31,10 +31,7 @@ function Badges() {
   return (
     <BaseLayout
       title="Badges"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/badges" },
-        { label: "Badges" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/elements/badges" }, { label: "Badges" }]}
     >
       <View title="Badges gradient" code={badgesGradientCode}>
         <BadgesGradient />

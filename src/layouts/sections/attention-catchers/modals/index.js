@@ -27,10 +27,7 @@ function Modals() {
   return (
     <BaseLayout
       title="Modals"
-      breadcrumb={[
-        { label: "Page Sections", route: "/sections/attention-catchers/modals" },
-        { label: "Modals" },
-      ]}
+      breadcrumb={[{ label: "Page Sections", route: "/sections/attention-catchers/modals" }, { label: "Modals" }]}
     >
       <View title="Simple modal" code={simpleModalCode}>
         <SimpleModal />

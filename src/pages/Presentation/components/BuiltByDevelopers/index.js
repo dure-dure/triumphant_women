@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -45,20 +46,21 @@ function BuiltByDevelopers() {
     >
       <Container>
         <Grid container alignItems="center" item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
-          
           <MKTypography variant="h1" color="white" mb={1}>
-          Ways to give
+            Ways to give
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            {<>
-              Cash app 952-245-6688  $triumphantwomenint <br/><br/>
-              PayPal 952-245-6688  Triumphantwomenint@gmail.com<br/><br/>
-              Zelle 612-644-2514   AMI Tsogbe
-
-
-            </>}
+            {
+              <>
+                Cash app 952-245-6688 $triumphantwomenint <br />
+                <br />
+                PayPal 952-245-6688 Triumphantwomenint@gmail.com
+                <br />
+                <br />
+                Zelle 612-644-2514 AMI Tsogbe
+              </>
+            }
           </MKTypography>
-          
         </Grid>
       </Container>
     </MKBox>

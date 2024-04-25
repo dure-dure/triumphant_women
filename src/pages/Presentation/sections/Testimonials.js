@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -36,7 +37,6 @@ function Information() {
   return (
     <MKBox component="section" py={12}>
       <Container>
-        
         <Grid container spacing={1} sx={{ mt: 8 }}>
           <Grid item xs={12} md={6} lg={6}>
             <DefaultReviewCard
@@ -44,18 +44,22 @@ function Information() {
               // date="1 day ago"
               review={
                 <>
-                * Identity<br />
-                * Destiny<br />
-                * Inner wound<br />
-                * Trauma<br />
-                * Restoration<br />
-                * Marriage
+                  * Identity
+                  <br />
+                  * Destiny
+                  <br />
+                  * Inner wound
+                  <br />
+                  * Trauma
+                  <br />
+                  * Restoration
+                  <br />* Marriage
                 </>
               }
               rating={5}
             />
           </Grid>
-          
+
           <Grid item xs={12} md={6} lg={6}>
             <DefaultReviewCard
               // color="info"
@@ -63,24 +67,22 @@ function Information() {
               // date="1 week ago"
               review={
                 <>
-                * Ton identite en Christ et identite specifique.
-                <br />
-                * Destinee ,ton apel ou vocation.
-                <br />
-                * Tes dons et tes talents<br />
-                * Tes blessures interieures et traumatizes<br />
-                * Restauration<br />
-                * Preparation au marriage (Physique,emotionnelle,ou spirituelle)
+                  * Ton identite en Christ et identite specifique.
+                  <br />
+                  * Destinee ,ton apel ou vocation.
+                  <br />
+                  * Tes dons et tes talents
+                  <br />
+                  * Tes blessures interieures et traumatizes
+                  <br />* Restauration * Preparation au marriage (Physique,emotionnelle,ou
+                  spirituelle)
                 </>
               }
               rating={5}
-              
             />
           </Grid>
-          
         </Grid>
-        <Divider  sx={{ my: 1 }} />
-        
+        <Divider sx={{ my: 1 }} />
       </Container>
     </MKBox>
   );

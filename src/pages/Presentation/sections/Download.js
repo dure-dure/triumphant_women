@@ -64,8 +64,8 @@ function Download() {
               Mission
             </MKTypography>
             <MKTypography variant="body1" color="white" mb={6}>
-              Travel to the nation to bring good news. Help children spiritually,
-              emotionally and physically.
+              Travel to the nation to bring good news. Help children spiritually, emotionally and
+              physically.
             </MKTypography>
             <MKButton
               variant="gradient"

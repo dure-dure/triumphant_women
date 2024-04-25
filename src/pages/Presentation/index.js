@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -8,7 +9,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -84,7 +85,7 @@ function Presentation() {
                 },
               })}
             >
-            TRIUMPHANT WOMEN{" "}
+              TRIUMPHANT WOMEN{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -93,8 +94,8 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Help women to experience the love of God  
-              , Have intimacy with God and Know their divine destiny.
+              Help women to experience the love of God , Have intimacy with God and Know their
+              divine destiny.
             </MKTypography>
           </Grid>
         </Container>
@@ -113,12 +114,12 @@ function Presentation() {
         {/* <Counters /> */}
         <Information />
         <Download />
-        
+
         {/* <DesignBlocks /> */}
         {/* <Pages /> */}
-        
+
         <Container>
-          <Grid container spacing={1} >
+          <Grid container spacing={1}>
             <Grid item xs={12} lg={4} sx={{ alignItems: "center" }}>
               <FilledInfoCard
                 variant="gradient"
@@ -127,34 +128,37 @@ function Presentation() {
                 title="Triumphant Women ministry Monthly programs"
                 description={
                   <>
-                  <br/>
-                  On zoom <br/>
-                  ID: 585 073 7300<br/>
-                  CODE: 86 79 22<br/>
-                  <br/>
+                    <br />
+                    On zoom <br />
+                    ID: 585 073 7300
+                    <br />
+                    CODE: 86 79 22
+                    <br />
                   </>
                 }
-                
               />
             </Grid>
-            <Grid item xs={12} lg={4} >
+            <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
                 // icon="precision_manufacturing"
                 title=""
                 description={
                   <>
-                  *1st Friday of the month<br/>
-                  From 8PM CST -9:30PM CST<br/>
-                  Testimony and Talk Show<br/>
-                  <br/>
-                  *2nd Friday of the month<br/>
-                  From 8PM CST -9: 30PM CST<br/>
-                  Teaching and Intercession prayer
-
+                    *1st Friday of the month
+                    <br />
+                    From 8PM CST -9:30PM CST
+                    <br />
+                    Testimony and Talk Show
+                    <br />
+                    <br />
+                    *2nd Friday of the month
+                    <br />
+                    From 8PM CST -9: 30PM CST
+                    <br />
+                    Teaching and Intercession prayer
                   </>
                 }
-                
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -164,29 +168,28 @@ function Presentation() {
                 title=""
                 description={
                   <>
-                  *3rd Friday of the month<br/>
-                  From 8PM CST -9PM CST<br/>
-                  Teaching and Intercession prayer<br/>
-                  <br/>
-                  *4th Friday of the month<br/>
-                  From 8PM cst-9:30 PM<br/>
-                  Miracle Service
-
+                    *3rd Friday of the month
+                    <br />
+                    From 8PM CST -9PM CST
+                    <br />
+                    Teaching and Intercession prayer
+                    <br />
+                    <br />
+                    *4th Friday of the month
+                    <br />
+                    From 8PM cst-9:30 PM
+                    <br />
+                    Miracle Service
                   </>
                 }
-                
               />
             </Grid>
-            
           </Grid>
-          
-          
         </Container>
-        <Container sx={{ mt: 1}}>
+        <Container sx={{ mt: 1 }}>
           {/* <BuiltByDevelopers /> */}
-          <FeaturesOne/>
+          <FeaturesOne />
         </Container>
-        
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

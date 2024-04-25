@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -8,12 +9,13 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
 // react-router-dom components
+// eslint-disable-next-line no-unused-vars
 import { Link } from "react-router-dom";
 
 // prop-types is a library for typechecking of props.
@@ -34,7 +36,7 @@ function DefaultFooter({ content }) {
   return (
     <MKBox component="footer">
       <Container>
-        <Grid container spacing={0} >
+        <Grid container spacing={0}>
           {/* <Grid item xs={12} md={3} sx={{ ml: "auto", mb: 3, alignItems: "center"   }}>
             <MKBox>
               <Link to={brand.route}>
@@ -102,13 +104,13 @@ function DefaultFooter({ content }) {
               </MKBox>
             </Grid>
           ))} */}
-          <Grid item xs={12} sx={{ fontSize:"8" ,textAlign: "center" }}>
-          
-          <MKBox component="img" src={bgImage} alt={brand.name} maxWidth="6rem" mb={0} />
+          <Grid item xs={12} sx={{ fontSize: "8", textAlign: "center" }}>
+            <MKBox component="img" src={bgImage} alt={brand.name} maxWidth="6rem" mb={0} />
           </Grid>
-          <Grid item xs={12} sx={{ fontSize:"8" ,textAlign: "center"}}>
-          
-          <MKTypography variant="overline">All rights reserved. Copyright © 2024 Triumphant Women by #Dure-dure.</MKTypography>
+          <Grid item xs={12} sx={{ fontSize: "8", textAlign: "center" }}>
+            <MKTypography variant="overline">
+              All rights reserved. Copyright © 2024 Triumphant Women by #Dure-dure.
+            </MKTypography>
           </Grid>
         </Grid>
       </Container>

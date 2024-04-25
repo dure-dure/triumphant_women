@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -14,18 +15,15 @@ function FeaturesOne() {
     <MKBox component="section" py={{ xs: 3, md: 6 }}>
       <Container>
         <Grid container alignItems="center">
-          <Grid  item xs={12} sx={{ textAlign: "center" }} lg={5}>
+          <Grid item xs={12} sx={{ textAlign: "center" }} lg={5}>
             <MKTypography variant="h3" my={1} mt={2} alignItems="left">
-            
-                    Ways to give 
-            
+              Ways to give
             </MKTypography>
             {/* <MKTypography variant="body2" color="text" mb={2}>
               Pain is what we go through as we become older. We get insulted by others, lose trust
               for those others. We get back stabbed by friends. It becomes harder for us to give
               others a hand.
             </MKTypography> */}
-            
           </Grid>
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
             <Stack>
@@ -84,12 +82,12 @@ function FeaturesOne() {
                   justifyContent="center"
                   borderRadius="xl"
                 >
-                  <Icon  fontSize="small">Zelle</Icon>
+                  <Icon fontSize="small">Zelle</Icon>
                 </MKBox>
                 <MKTypography variant="body2" color="text" pl={2}>
                   Zelle 612-644-2514
                   <br />
-                  AMI Tsogbe
+                  AMI Tsogbe
                 </MKTypography>
               </MKBox>
             </Stack>
